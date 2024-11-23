@@ -1,3 +1,5 @@
+<h1>GESTOR DE COLAS OPEN-mpi</h1>
+
 *************************  OBJETIVOS  *********************************************************
 
   En primer lugar, se ha planteado un sistema basado en una pizarra (maestro-esclavo), cuya pizarra
