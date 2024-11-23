@@ -1,4 +1,4 @@
-<h1>GESTOR DE COLAS OPEN-mpi</h1>
+<em>GESTOR DE COLAS OPEN-mpi</em>
 
 *************************  OBJETIVOS  *********************************************************
 
