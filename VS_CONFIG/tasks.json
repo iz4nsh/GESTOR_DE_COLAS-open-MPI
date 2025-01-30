@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compilar OpenMPI",
+            "type": "shell",
+            "command": "mpicc",  // Usamos mpicc para compilar con OpenMPI
+            "args": [
+                "-g",  // Opción para incluir información de depuración
+                "${file}",  // Toma el archivo activo abierto
+                "-o",
+				"${fileDirname}/${fileBasenameNoExtension}"  // El ejecutable con el mismo nombre que el archivo fuente, pero sin la extensión
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compilar con OpenMPI"
+        }
+    ]
+}
+
+
